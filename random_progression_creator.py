@@ -25,7 +25,7 @@ keys = [
 class Progression:
     """A progression object.
     
-    This is an object that when created generates a list of relative chords of a given
+    This is an object that generates a list of relative chords of a given
     length and generates a 'key' attribute.
     
     Specifically created for use with the mingus library.

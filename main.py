@@ -70,3 +70,10 @@ for l in run_length:
         i += 1
     print("-" * 20)
 
+rating = int(input("Give those bars a rating! Enter a number 1 to 10: ", or 1))
+
+if rating in range(1, 11):
+    print("Thanks - we've saved your rating.")
+else:
+    print("Error: invalid rating.")
+    rating = 5
